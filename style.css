@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+  }
+  
+  ul > li {
+    display: inline-block;
+  }
+  
+  ul > li > a {
+    text-decoration: none;
+    padding: 10px 17px;
+    border-top: 3px solid transparent;
+    transition: border 300ms ease;
+  }
+  
+  ul > li > a:hover {
+    border-top-color: red;
+  }
